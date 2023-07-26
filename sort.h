@@ -31,4 +31,7 @@ void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
 void merge(int *array, int *left, int *mid, int *right);
 void merge_sort(int *array, size_t size);
+void sift_down(int *array, size_t size, size_t idx, size_t max_size);
+void heap_sort(int *array, size_t size);
+
 #endif
